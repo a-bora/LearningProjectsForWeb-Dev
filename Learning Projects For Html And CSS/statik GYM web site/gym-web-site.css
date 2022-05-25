@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+body {
+    background-image: url(./images/1080.png);
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+/*Açıklama*/
+
+.sayfa-ortasi{
+    position: relative;
+    top: 250px;
+    padding:10px;
+    font-size:25px;
+}
+.sayfa-ortasi h2{
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 4px 4px #3a3634;
+}
+ .sayfa-ortasi p span{
+    font-weight:900;
+}
+#aciklama{
+margin:10px;
+}
+.sayfa-ortasi ul{
+    list-style-type: none;
+    overflow: hidden;  
+    margin:20px 0 20px 0;
+}
+
+.sayfa-ortasi p{
+    color: #ffffff;
+}
+.sayfa-ortasi li{
+    list-style-type:none;
+    float:left;  
+    padding:10px;
+    font-size: 45px;
+    color: #ffffff;
+    
+    
+}
+.sayfa-ortasi li i{
+    background-color: #D9585A;
+    border: 5px solid #D9585A;
+    border-radius: 50%;
+    transition: background-color 0.3s linear;
+}
+.sayfa-ortasi li i:hover{
+    background-color: #8d3a3c;
+}
+.sayfa-ortasi button{
+    background-color: #D9585A;
+    border: none;
+    color:#ffffff;
+    font-size: 40px;
+    padding: 16px 30px;
+    margin:20px 0 20px 0;
+    transition: background-color 0.3s linear;
+}
+.sayfa-ortasi button:hover{
+    background-color: #8d3a3c;
+}
+.sayfa-ortasi a{
+    text-decoration: none;
+    color:inherit;
+
+}
+/*NavBar*/
+#nav {
+    background-color: rgba(0, 0, 0, 0.514);
+    height:55px;
+}
+#nav h1{
+    display: inline;
+    font-size: 40px;
+    color:#ffffff;
+}
+h1 span{
+    font-size:40px;
+    font-weight: bold;
+    color: aqua;
+}
+#nav li{
+    list-style-type:none;
+    float:right;
+    display:inline;
+    
+}
+#nav li a{
+    display: inline-block;
+    color:#f1f1f1;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s linear;
+    font-size: 20px;
+}
+#nav ol{
+    list-style-type: none;
+    overflow: hidden;
+    display:inline;
+    
+    
+}
+
+#nav ol li a:hover{
+    color:red;
+    background-color: black;
+
+
+}
+.active {
+    background-color: #dd4453;
+}
